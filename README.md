@@ -4,5 +4,5 @@ Creating a Person class with java
 ## To run the script
 Clone the repository in your machine
 ```bash
-git clone https://github.com/pauloavj/Stock_price_tracking.git
+git clone https://github.com/pauloavj/Create_a_Person_class.git
 ```
