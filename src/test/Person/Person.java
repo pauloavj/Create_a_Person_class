@@ -19,6 +19,7 @@ public class Person {
     public String introducePerson(){
         return "Hello my name is " + personName + " and I am from " + personHometown;
     }
+
     /**This function will check if both people are from the same hometown,
      * if not it will introduce himself*/
     public String introducePerson(String otherPersonHometown){
@@ -28,10 +29,12 @@ public class Person {
             return introducePerson();
         }
     }
+
     /**This function allows you to get the person's hometown*/
     public String getPersonHometown(){
         return personHometown;
     }
+
     /**This function will convert the Person's height from centimeters to inches*/
     public double getHeightInches() {
         double heightInches = Math.round(personHeight * 0.393701 * 100.0)/100.0;
